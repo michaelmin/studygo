@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
+	"github.com/michaelmin/studygo/stringutil"
 )
 
 func main() {
-	fmt.Print("你好，世界!")
+	fmt.Print(stringutil.Reverse("hello world"))
 }
